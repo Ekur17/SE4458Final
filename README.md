@@ -1,7 +1,8 @@
-#Video Link
+# Video Link
 
 
-#Doctor Appointment System
+# **Doctor Appointment System**
+
 The project aims to create a Doctor Appointment System that allows patients to search for doctors, book appointments, and leave reviews. 
 The system is built using JavaScript, Node.js, Express.js, Firebase, and RabbitMQ for message queuing. The backend provides a RESTful API for managing doctors, appointments, notifications, and reviews. 
 The application supports real-time appointment scheduling, ensuring efficient booking management.
@@ -9,31 +10,31 @@ Users can authenticate using Google Authentication, and doctors can manage their
 The system integrates RabbitMQ for handling appointment notifications asynchronously, ensuring a smooth user experience.
 Security measures include role-based access control, Firebase authentication, and inappropriate language filtering in reviews. The system also features email notifications for appointment reminders and doctor rating requests.
 
-#Tech Stack
+# **Tech Stack**
 
-#Frontend
+## **Frontend**
 
-React.js
-React Router
-Leaflet.js (for Map View)
-CSS (Styled Components & Bootstrap)
+-React.js
+-React Router
+-Leaflet.js (for Map View)
+-CSS (Styled Components & Bootstrap)
 
-#Backend
+## **Backend**
 
-Node.js & Express.js
-Firebase Firestore (Database & Authentication)
-RabbitMQ (Queue System for Notifications)
-Nodemailer (for Email Services)
-Docker & Azure (for Deployment)
+-Node.js & Express.js
+-Firebase Firestore (Database & Authentication)
+-RabbitMQ (Queue System for Notifications)
+-Nodemailer (for Email Services)
+-Docker & Azure (for Deployment)
 
-#Modules
+# **Modules**
 Authentication Module: Google login, user authentication
 Doctor Management Module: Doctor registration, scheduling
 Appointment Module: Search, book, and manage appointments
 Review Module: Patients leave reviews with language filtering
 Notification Module: Email & in-app notifications using RabbitMQ
 
-#Installation & Run
+# **Installation & Run**
 
 Before running the API server, update the .env file with your credentials:
 
