@@ -10,6 +10,8 @@ Users can authenticate using Google Authentication, and doctors can manage their
 The system integrates RabbitMQ for handling appointment notifications asynchronously, ensuring a smooth user experience.
 Security measures include role-based access control. The system also features email notifications for appointment and doctor rating requests.
 
+![image](https://github.com/user-attachments/assets/da3cd3c2-8865-41ce-8ac3-580dd307b9f6)
+
 # **Tech Stack**
 
 ## **Frontend**
