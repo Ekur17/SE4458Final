@@ -15,23 +15,35 @@ Security measures include role-based access control, Firebase authentication, an
 ## **Frontend**
 
 -React.js
+
 -React Router
+
 -Leaflet.js (for Map View)
+
 -CSS (Styled Components & Bootstrap)
 
 ## **Backend**
 
 -Node.js & Express.js
+
 -Firebase Firestore (Database & Authentication)
+
 -RabbitMQ (Queue System for Notifications)
+
 -Nodemailer (for Email Services)
+
 -Docker & Azure (for Deployment)
 
 # **Modules**
+
 Authentication Module: Google login, user authentication
+
 Doctor Management Module: Doctor registration, scheduling
+
 Appointment Module: Search, book, and manage appointments
-Review Module: Patients leave reviews with language filtering
+
+Review Module: Patients leave reviews
+
 Notification Module: Email & in-app notifications using RabbitMQ
 
 # **Installation & Run**
@@ -40,9 +52,13 @@ Before running the API server, update the .env file with your credentials:
 
 # SMTP Email Configuration
 SMTP_HOST=smtp.gmail.com
+
 SMTP_PORT=465
+
 SMTP_USER=your_email@gmail.com
+
 SMTP_PASS=your_email_password
+
 RABBITMQ_URL=amqp://localhost:5672
 
 
