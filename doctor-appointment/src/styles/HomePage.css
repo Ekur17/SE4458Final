@@ -1,0 +1,139 @@
+.homepage {
+  text-align: center;
+  background-color: #e7f6f2;
+  padding: 50px 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #004d40;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #00796b;
+}
+
+.search-bar {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.search-bar input {
+  padding: 10px;
+  font-size: 1rem;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-bar button {
+  background-color: #00796b;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background-color: #004d40;
+}
+
+.results-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 50px;
+}
+
+.map-container {
+  width: 50%;
+  height: 400px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 2px solid #004d40;
+}
+
+.doctor-info {
+  flex: 1;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+  border: 2px solid #004d40;
+  text-align: center;
+  max-width: 400px;
+  position: relative;
+}
+
+/* ⭐ Doktorun ismi ve puanını yan yana göstermek için */
+.doctor-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* ⭐ Ortalama puan göstergesi */
+.rating-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #ffb400;
+}
+
+/* Yıldız simgesi */
+.rating-container .star {
+  color: #ffb400;
+  font-size: 1.2rem;
+}
+
+/* Değerlendirme sayısı */
+.rating-container .review-count {
+  font-size: 1rem;
+  color: #555;
+}
+
+button.available-time {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #00796b;
+  color: white;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button.available-time:hover {
+  background: #004d40;
+}
+
+.weekly-schedule {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.schedule-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+}
+
+.day-schedule {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.day-schedule h4 {
+  margin-bottom: 5px;
+  font-size: 1rem;
+}
+
+.day-schedule button {
+  width: 100%;
+}

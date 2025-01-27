@@ -1,0 +1,26 @@
+.login-container {
+  text-align: center;
+  background-color: #e7f6f2;
+  padding: 50px;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: 50px auto;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.google-btn,
+.logout-btn {
+  background-color: #00796b;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.google-btn:hover,
+.logout-btn:hover {
+  background-color: #004d40;
+}
