@@ -8,7 +8,7 @@ The system is built using JavaScript, Node.js, Express.js, Firebase, and RabbitM
 The application supports real-time appointment scheduling, ensuring efficient booking management.
 Users can authenticate using Google Authentication, and doctors can manage their availability through a structured scheduling system. Cloud Firestore is used as a NoSQL database to store user and appointment data. 
 The system integrates RabbitMQ for handling appointment notifications asynchronously, ensuring a smooth user experience.
-Security measures include role-based access control, Firebase authentication, and inappropriate language filtering in reviews. The system also features email notifications for appointment reminders and doctor rating requests.
+Security measures include role-based access control. The system also features email notifications for appointment and doctor rating requests.
 
 # **Tech Stack**
 
