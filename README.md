@@ -15,6 +15,12 @@ Security measures include role-based access control. The system also features em
 
 ![image](https://github.com/user-attachments/assets/da3cd3c2-8865-41ce-8ac3-580dd307b9f6)
 
+Running(With Docker)
+
+To start the application using Docker, run the following command:
+
+docker-compose up --build
+
 # **Tech Stack**
 
 ## **Frontend**
@@ -65,6 +71,36 @@ SMTP_USER=your_email@gmail.com
 SMTP_PASS=your_email_password
 
 RABBITMQ_URL=amqp://localhost:5672
+
+# How to Run Application
+
+Running(Without Docker)
+
+Open three separate terminal windows and execute the following commands:
+
+Start the frontend:
+
+cd doctor-appointment
+
+npm start
+
+Start the backend server:
+
+cd doctor-appointment\backend
+
+node server.js
+
+Start the email worker:
+
+cd doctor-appointment\backend
+
+node emailWorker.js
+
+Start the API gateway:
+
+cd doctor-appointment\backend
+
+node gateway.js
 
 # Azure Deployment
 
