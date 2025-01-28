@@ -102,6 +102,9 @@ cd doctor-appointment\backend
 
 node gateway.js
 
+# Firebase Configuration
+Before running the API server, place the serviceAccountKey.json file inside the backend folder. This file is required for Firebase services to work.
+
 # **Azure Deployment**
 
 se4458final-fwahf2hrfphgeufj.italynorth-01.azurewebsites.net
