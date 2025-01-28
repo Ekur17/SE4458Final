@@ -106,7 +106,8 @@ node gateway.js
 
 se4458final-fwahf2hrfphgeufj.italynorth-01.azurewebsites.net
 
-![image](https://github.com/user-attachments/assets/1fd7e8e7-1d6a-4bbe-80a4-c02c227a0482)
+![image](https://github.com/user-attachments/assets/50186001-579d-41d0-a609-2e6feefcb0a1)
+
 
 
 
