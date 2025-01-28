@@ -66,6 +66,14 @@ SMTP_PASS=your_email_password
 
 RABBITMQ_URL=amqp://localhost:5672
 
+# Azure Deployment
+
+se4458final-fwahf2hrfphgeufj.italynorth-01.azurewebsites.net
+
+![image](https://github.com/user-attachments/assets/1fd7e8e7-1d6a-4bbe-80a4-c02c227a0482)
+
+
+
 
 
 
