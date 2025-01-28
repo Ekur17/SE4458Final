@@ -72,31 +72,31 @@ SMTP_PASS=your_email_password
 
 RABBITMQ_URL=amqp://localhost:5672
 
-# How to Run Application
+## How to Run Application
 
-# ***Running(Without Docker)***
+### Running (Without Docker)
 
 Open three separate terminal windows and execute the following commands:
 
-# ****Start the frontend:****
+#### Start the frontend:
 
 cd doctor-appointment
 
 npm start
 
-# ****Start the backend server:****
+#### Start the backend server:
 
 cd doctor-appointment\backend
 
 node server.js
 
-# ****Start the email worker:****
+#### Start the email worker:
 
 cd doctor-appointment\backend
 
 node emailWorker.js
 
-# ****Start the API gateway:****
+#### Start the API gateway:
 
 cd doctor-appointment\backend
 
